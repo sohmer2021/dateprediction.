@@ -1,11 +1,19 @@
 package com.LickingHeights;
-
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int day;
         int month;
         int year;
         String input;
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("What month were you born (enter as number)?");
+        input = keyboard.nextLine();
+        System.out.println("What day were you born?");
+        input = keyboard.nextLine();
+        System.out.println("What year were you born?");
+        input = keyboard.nextLine();
+
 
         {
             if (month == 1) {
