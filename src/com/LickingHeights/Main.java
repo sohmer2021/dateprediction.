@@ -8,25 +8,26 @@ public class Main {
         String input;
         Scanner keyboard = new Scanner(System.in);
         System.out.println("What month were you born (enter as number)?");
-        input = keyboard.nextLine();
+        month = keyboard.nextInt();
         System.out.println("What day were you born?");
-        input = keyboard.nextLine();
+        day = keyboard.nextInt();
         System.out.println("What year were you born?");
-        input = keyboard.nextLine();
+        year = keyboard.nextInt();
 
 
         {
-            if (month == 1) {
+            if (month == 1)
+            {
                 month = 13;
                 year--;
             }
-            if (month == 2) {
+            if (month == 2)
+            {
                 month = 14;
                 year--;
-            }
 
 
-        }
+                }
         int q;
         int m;
         int j;
@@ -75,5 +76,5 @@ public class Main {
 
         }
 
-    }
+    }}
 
