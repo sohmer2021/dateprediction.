@@ -21,18 +21,18 @@ public class Main {
                 month = 13;
                 year--;
             }
-            if (month == 2)
+            else if (month == 2)
             {
                 month = 14;
-                year--;
 
 
                 }
-        int q;
-        int m;
-        int j;
-        int k;
-        int h = (q + 13) * (m + 1) / 5 + k + k / 4 + j / 4 + 5 * j;
+        int q, m, j, k, h;
+            m=month;
+            q=day;
+            k=year;
+            j=year;
+        h = (q + 13) * (m + 1) / 5 + k + k / 4 + j / 4 + 5 * j;
         h = h % 7;
         switch (h) {
 
