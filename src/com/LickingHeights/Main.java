@@ -74,6 +74,10 @@ public class Main {
         System.out.println("Saturday's child works hard for a living");
         System.out.println("Sunday's child is fair and wise and good in every way");*/
 
+        /*04 29 04
+        * 08 06 78
+        * */
+
         }
 
     }}
