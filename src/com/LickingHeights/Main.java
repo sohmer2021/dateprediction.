@@ -31,8 +31,8 @@ public class Main {
             m=month;
             q=day;
             k=year;
-            j=year;
-        h = (q + 13) * (m + 1) / 5 + k + k / 4 + j / 4 + 5 * j;
+            j = year;
+            h = q + 13*(m+1)/5 + k + k/4 + j/4 + 5*j;
         h = h % 7;
         switch (h) {
 
@@ -75,8 +75,7 @@ public class Main {
         System.out.println("Sunday's child is fair and wise and good in every way");*/
 
         /*04 29 04
-        * 08 06 78
-        * */
+        **/
 
         }
 
